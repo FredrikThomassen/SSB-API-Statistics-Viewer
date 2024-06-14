@@ -15,7 +15,7 @@ Access to the internet to fetch data from the SSB API
 Installing:
 To get the application running locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-github-username/your-repository-name.git
+Clone the repository
 cd your-repository-name
 
 npm install
