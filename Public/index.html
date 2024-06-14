@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Statistikkportal</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Statistikkportal - Oblig 2 - Thomassen F</h1>
+    <p>Inbyggere per km2 landareal</p>
+    <table id="statsTable">
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>2020</th>
+                <th>2021</th>
+                <th>2022</th>
+                <th>2023</th>
+                <th>Gjennomsnitt</th>
+                <th>Median</th>
+                <th>Maksimum</th>
+                <th>Minimum</th>
+            </tr>
+        </thead>
+        <tbody id="statsBody">
+            <!-- Data vil bli dynamisk fylt inn her ved hjelp av Client.js -->
+        </tbody>
+    </table>
+    <script src="Client.js"></script>
+</body>
+</html>
